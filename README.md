@@ -10,9 +10,9 @@ Xeno IDE delivers a complete offline coding workflow directly on Android devices
 
 ---
 
-<p align="center">
+ <!--<p align="center">
   <img src="screenshot.jpg" alt="Xeno IDE Screenshot" width="360" />
-</p>
+ </p> -->
 
 ---
 
