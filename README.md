@@ -40,6 +40,17 @@ Xeno IDE delivers a complete offline coding workflow directly on Android devices
 
 ---
 
+## 🔒 Security & Distribution Architecture
+
+Xeno IDE operates on a **Dual-Repository Model**:
+- **Source Code Protection:** All core Kotlin code, build configurations, and development work remain strictly private in the `xeno-ide` repository.
+- **Public Binary Distribution:** This repository serves as the official public distribution portal hosting verified application binaries (`.apk`) and issue tracking.
+- **Automated Delivery:** Releases are compiled in ephemeral GitHub Actions virtual environments and automatically dispatched here via encrypted credentials upon tagging new versions.
+
+📖 For complete details on the security boundaries, token isolation, and automated CI/CD pipeline, see **[ARCHITECTURE.md](ARCHITECTURE.md)**.
+
+---
+
 ## 🐛 Feedback & Bug Reports
 
 Encountered an issue or have a feature request?
